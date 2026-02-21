@@ -1,17 +1,17 @@
 class Codeix < Formula
   desc "Portable, composable code index — build with tree-sitter, query via MCP"
   homepage "https://codeix.dev"
-  version "0.4.1"
+  version "0.5.0"
   license "MIT OR Apache-2.0"
 
   on_macos do
-    url "https://github.com/montanetech/codeix/releases/download/v0.4.1/codeix-aarch64-apple-darwin.tar.gz"
-    sha256 "31b923757c7ab0107a2e64b0d22fbc9b7528efca580d9f2140018853c8c761cf"
+    url "https://github.com/montanetech/codeix/releases/download/v0.5.0/codeix-aarch64-apple-darwin.tar.gz"
+    sha256 "c32334d9beb4e34962d97874367cf3645eaf81a8fbee64572cf98969a6c5a694"
   end
 
   on_linux do
-    url "https://github.com/montanetech/codeix/releases/download/v0.4.1/codeix-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "b2cbe3f2f54b359cb8012138db5c0448c01258873c4e798755347fdcbfa95c98"
+    url "https://github.com/montanetech/codeix/releases/download/v0.5.0/codeix-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "c1d4ad3d7202b39700b9e957a05cd1e9399ccb6d590d51ed173fdd20ef7a2d85"
   end
 
   def install
